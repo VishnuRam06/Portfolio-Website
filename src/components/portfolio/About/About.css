@@ -1,0 +1,113 @@
+@import "../../../vars.css";
+
+.container1 {
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title1 {
+    color: var(--color-text);
+    text-align: center;
+    padding: 15px;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aboutImage1 {
+    width: 35%;
+    z-index: 1;
+    padding: 10px;
+    margin-left: 10px;
+    animation-name: floating1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating1 {
+    0% {
+      transform: translate(0, 0px);
+    }
+    50% {
+      transform: translate(0, 20px);
+    }
+    100% {
+      transform: translate(0, -0px);
+    }
+}
+
+.aboutItems1 {
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.aboutItem1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    background-image: linear-gradient(
+        90deg,
+        rgba(165, 215, 232, 0.42) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+}
+
+.aboutItem1:hover {
+  background-size: 100% 100%; /* bg colour in aboutItem*/
+}
+
+.aboutItem1 h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+  
+.aboutItem1 p {
+    font-size: 35px;
+}
+
+@media screen and (max-width: 830px) {
+    .container1 {
+      background-color: transparent;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .content1 {
+      flex-direction: column;
+    }
+  
+    .aboutImage1 {
+        margin-top: 29px;
+    }
+  
+    .aboutItems1 {
+      margin-top: 29px;
+    }
+  
+    .aboutItem1 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+}
