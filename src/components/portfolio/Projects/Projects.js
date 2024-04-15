@@ -27,7 +27,7 @@ export const Projects = () => {
                     <a href="/" className="cardlink">
                     Demo
                     </a>
-                    <a href="https://github.com/VishnuRam06/vishkart-E-commerce.git" className="cardlink">
+                    <a href="https://github.com/VishnuRam06/vishkart-E-commerce.git" target="blank" className="cardlink">
                     Source
                     </a>
                 </div>
@@ -50,7 +50,7 @@ export const Projects = () => {
                     <a href="/" className="cardlink">
                     Demo
                     </a>
-                    <a href="https://github.com/VishnuRam06/Weather-App.git" className="cardlink">
+                    <a href="https://github.com/VishnuRam06/Weather-App.git" target="blank" className="cardlink">
                     Source
                     </a>
                 </div>
@@ -71,7 +71,7 @@ export const Projects = () => {
                     <a href="/" className="cardlink">
                     Demo
                     </a>
-                    <a href="https://github.com/VishnuRam06/Portfolio-Website.git" className="cardlink">
+                    <a href="https://github.com/VishnuRam06/Portfolio-Website.git" target="blank" className="cardlink">
                     Source
                     </a>
                 </div>

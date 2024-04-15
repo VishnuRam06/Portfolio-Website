@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 830px) {
     .skills {
-      width: 100%;
+      width: 50%;
       flex-direction: row;
       justify-content: center;
     }
