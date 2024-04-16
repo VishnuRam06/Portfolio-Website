@@ -7,7 +7,7 @@ import linkedinIcon from '../../Assets/contact/linkedinIcon.png'
 
 export const Contact = () => {
     return (
-      <footer className="container4">
+      <footer className="container4" id="contact">
         <div className="text4">
           <h2>Contact</h2>
           <p>Feel free to reach out!</p>

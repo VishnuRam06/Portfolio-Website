@@ -1,8 +1,7 @@
 import React from "react";
 import "./Hero.css";
 
-import heroIcon from '../../Assets/hero/1.png'
-// import heroIcon from '../../Assets/hero/vish.jpg'
+import heroIcon from '../../Assets/hero/vish.jpg'
 
 
 export const Hero = () => {
