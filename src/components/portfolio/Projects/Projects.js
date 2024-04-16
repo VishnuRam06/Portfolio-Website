@@ -5,7 +5,7 @@ import projectsIcon from '../../Assets/projects/project.png'
 
 export const Projects = () => {
     return (
-      <section className="container3">
+      <section className="container3" id="projects">
         <h2 className="title3">Projects</h2>
         <div className="projects3">
             <div className="cardcontainer">

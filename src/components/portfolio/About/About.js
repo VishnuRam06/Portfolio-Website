@@ -1,14 +1,14 @@
 import React from "react";
 import "./About.css";
 
-import heroIcon from '../../Assets/about/2.png'
+import heroIcon from '../../Assets/about/vish2.png'
 import cursorIcon from '../../Assets/about/cursorIcon.png'
 import serverIcon from '../../Assets/about/serverIcon.png'
 import uilIcon from '../../Assets/about/uiIcon.png'
 
 export const About = () => {
     return (
-      <section className="container1">
+      <section className="container1" id="about">
         <h2 className="title1">About</h2>
             <div className="content1">
                 <img

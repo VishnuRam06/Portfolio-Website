@@ -15,7 +15,7 @@ import reactIcon from '../../Assets/skills/react.png'
 
 export const Experience = () => {
     return (
-      <section className="container2">
+      <section className="container2" id="experience">
         <div className="title2">
             <p>Skills</p>
         </div>
