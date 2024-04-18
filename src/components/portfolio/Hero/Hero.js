@@ -1,8 +1,8 @@
 import React from "react";
 import "./Hero.css";
 
-import heroIcon from '../../Assets/hero/vish.jpg'
-
+import heroIcon from '../../Assets/hero/vish.png'
+import Resume from '../../Assets/VISHNU RAM.pdf'
 
 export const Hero = () => {
     return (
@@ -15,8 +15,11 @@ export const Hero = () => {
                     Python.<br/>
                     Reach out if you'd like to know more!
                 </p>
-                <a href="mailto:vishnuramm0612@email.com" className="contactBtn">
+                <a href="mailto:vishnuramm0612@gmail.com" className="contactBtn">
                     Contact Me
+                </a>
+                <a href={Resume} className="contactBtn">
+                    Resume
                 </a>
             </div>
             <img

@@ -15,7 +15,7 @@ export const Projects = () => {
                     className="cardimage"
                 />
                 <h3 className="cardtitle">vishkart E-commerce</h3>
-                <p className="carddescription"> It allows users to browse through different product categories, view product details, add products to their cart..</p>
+                <p className="carddescription"> It allows users to browse through different product categories, view product details, add products to their cart.</p>
                 <ul className="cardskills">
                     <li className="cardskill">Django</li>
                     <li className="cardskill">HTML/CSS</li>
@@ -39,13 +39,13 @@ export const Projects = () => {
                     className="cardimage"
                 />
                 <h3 className="cardtitle">Weather-App</h3>
-                <p className="carddescription"> The Weather App is a web application that allows users to get weather information for a specific city</p>
+                <p className="carddescription"> The Weather App is a web application that allows users to get weather information for a specific city</p><br/><br/>
                 <ul className="cardskills">
                     <li className="cardskill">Django</li>
                     <li className="cardskill">React.js</li>
-                    <li className="cardskill">Rest API</li>
+                    <li className="cardskill">Rest API</li> 
                     <li className="cardskill">MySQL</li>
-                </ul>
+                </ul><br/><br/>
                 <div className="cardlinks">
                     <a href="/" className="cardlink">
                     Demo
